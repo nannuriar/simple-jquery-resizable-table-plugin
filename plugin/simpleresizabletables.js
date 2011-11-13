@@ -14,7 +14,7 @@
 			{
 				//calculate new width;
 				var tableId = table.attr('id'); 
-				var myWidth = $('#'+tableId+' TR TH').get(columnIndex).offsetWidth;
+				var myWidth = $($('#' + tableId + ' TR TH').get(columnIndex)).width();
 				var newWidth = (myWidth+change)+'px';
 
 				$('#'+tableId+' TR').each(function() 
