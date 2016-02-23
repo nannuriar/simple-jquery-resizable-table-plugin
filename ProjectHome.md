@@ -1,0 +1,1 @@
+A simple plugin for dynamically resizing tables in html and jquery
